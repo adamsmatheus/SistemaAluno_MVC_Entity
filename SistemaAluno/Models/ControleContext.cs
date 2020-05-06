@@ -4,7 +4,7 @@ namespace SistemaAluno.Models
 {
     public class ControleContext : DbContext
     {
-        public ControleContext() : base("DefaultConnection")
+        public ControleContext() : base("MyConnection")
         {
         
         }

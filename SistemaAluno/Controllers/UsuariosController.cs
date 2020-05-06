@@ -1,19 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
+﻿using SistemaAluno.Models;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
-using SistemaAluno.Data;
-using SistemaAluno.Models;
 
 namespace SistemaAluno.Controllers
 {
     public class UsuariosController : Controller
     {
-        private SistemaAlunoContext db = new SistemaAlunoContext();
+        private ControleContext db = new ControleContext();
 
         // GET: Usuarios
         public ActionResult Index()

@@ -10,7 +10,6 @@
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(SistemaAluno.Models.ControleContext context)
